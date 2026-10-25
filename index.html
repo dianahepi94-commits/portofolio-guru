@@ -39,6 +39,7 @@ section h2{font-size:2rem}
 .box{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:18px}
 .box h3{font-size:1.2rem;color:var(--leaf)}
 .box p{margin:0;font-size:.97rem}
+.todo{border-style:dashed}
 .bars{margin-top:20px;display:grid;gap:14px}
 .bar b{display:flex;justify-content:space-between;font-size:.95rem}
 .track{height:12px;border-radius:99px;background:var(--line);position:relative;margin-top:4px}
@@ -52,15 +53,13 @@ details{background:var(--surface);border:1px solid var(--line);border-radius:14p
 summary{cursor:pointer;font:800 1.15rem "Baloo 2",sans-serif}
 details small{color:var(--muted);display:block}
 details p{margin:.7em 0 0}
-.todo{border-style:dashed}
 footer{background:var(--ink);color:var(--bg);padding:32px 0;text-align:center}
-footer a{color:var(--sun)}
 @media (max-width:720px){.hero .wrap{grid-template-columns:1fr}.lung{max-width:180px}}
 </style>
 </head>
 <body>
 <nav aria-label="Navigasi"><div class="wrap">
-<a href="#profil">Profil</a><a href="#karya">Karya inovasi</a><a href="#hasil">Hasil</a><a href="#blog">Blog</a><a href="#pengembangan">Pengembangan diri</a><a href="#kontak">Kontak</a>
+<a href="#profil">Profil</a><a href="#karya">Karya inovasi</a><a href="#hasil">Hasil</a><a href="#pengembangan">Pengembangan diri</a><a href="#kontak">Kontak</a>
 </div></nav>
 
 <header class="hero"><div class="wrap">
@@ -82,12 +81,13 @@ footer a{color:var(--sun)}
 <main>
 <section id="profil"><div class="wrap">
 <h2>Profil</h2>
-<p class="lead">Saya mengajar IPAS di kelas VI dengan 12 siswa. Materi yang tidak bisa dilihat langsung, seperti organ di dalam tubuh, paling sulit dipahami lewat ceramah dan gambar buku. Karena itu saya membangun media sendiri yang membuat siswa mencoba, bukan hanya mendengar.</p>
+<p class="lead">Bagi saya, menjadi guru bukan sekadar menjalankan tugas, tetapi panggilan untuk ikut membentuk generasi yang berpengetahuan, berkarakter, dan mandiri. Saya mengajar berpusat pada murid, lewat pembelajaran yang kreatif, menyenangkan, dan interaktif, dengan bantuan media digital dan kegiatan praktik.</p>
+<p class="lead"><b>Visi:</b> menjadi pendidik yang inspiratif, reflektif, dan adaptif dalam menciptakan pembelajaran yang berpusat pada murid, agar mereka tumbuh berkarakter, berprestasi, kreatif, mandiri, dan siap menghadapi perkembangan zaman.</p>
 <div class="grid">
 <div class="box"><h3>Sekolah</h3><p>SDN Warukkalong 1, Kecamatan Kwadungan, Kabupaten Ngawi</p></div>
 <div class="box"><h3>Mengajar</h3><p>IPAS, kelas VI SD</p></div>
+<div class="box"><h3>Pendidikan</h3><p>S1 Pendidikan Guru Sekolah Dasar (PGSD), Universitas PGRI Madiun</p></div>
 <div class="box"><h3>Organisasi</h3><p>Anggota PGRI Cabang Kwadungan</p></div>
-<div class="box"><h3>Cara mengajar</h3><p>Belajar dulu, bermain sesudahnya, lalu membuat karya bersama kelompok</p></div>
 </div></div></section>
 
 <section id="karya" style="background:var(--sky)"><div class="wrap">
@@ -117,30 +117,13 @@ footer a{color:var(--sun)}
 <details><summary>Kata rekan guru</summary><p>Media ini dinilai kreatif dan menarik karena memanfaatkan teknologi interaktif untuk meningkatkan minat, motivasi, dan keterlibatan siswa.</p></details>
 </div></section>
 
-<section id="blog" style="background:var(--sky)"><div class="wrap">
-<h2>Blog: catatan dari kelas</h2>
-<p class="lead">Tiga tulisan pertama. Ketuk judul untuk membaca.</p>
-<details><summary>Dari ceramah ke petualangan: kenapa saya membuat PETANAS</summary>
-<small>Refleksi mengajar</small>
-<p>Sistem pernapasan sulit diajarkan karena organnya tidak terlihat. Selama ini saya menjelaskan lewat ceramah dan gambar buku. Hasilnya, hanya beberapa siswa yang aktif, sisanya menunggu dan mudah kehilangan fokus. Empat dari dua belas siswa belum tuntas.</p>
-<p>Saya sadar anak-anak akrab dengan dunia digital. Jadi saya bertanya: bagaimana kalau latihan soal terasa seperti petualangan? Dari situ lahir PETANAS, dengan video, anatomi, dan dua permainan.</p></details>
-<details><summary>Cara saya membuat media interaktif dengan bantuan AI, gratis</summary>
-<small>Praktik baik untuk guru</small>
-<p>Semua kerangka berada dalam satu file HTML, lalu diunggah ke GitHub Pages supaya bisa dibuka lewat tautan. AI membantu saya menyusun bank soal, kode permainan, dan memperbaiki kesalahan.</p>
-<p>Kuncinya prompt yang jelas: sebutkan peran, kelas, materi, jumlah pemain, dan aturan permainan. Setelah itu uji berulang di HP, karena sering ada tampilan yang terpotong atau jawaban yang bisa ditekan dua kali.</p></details>
-<details><summary>Satu HP berdua: mengatasi keterbatasan perangkat di kelas</summary>
-<small>Kendala dan solusi</small>
-<p>Tidak semua siswa punya perangkat sendiri dan jaringan kadang lemah. Solusinya, siswa bekerja berkelompok dan memakai satu perangkat bersama. Materi juga dibuka lebih dulu sebelum pelajaran dimulai.</p>
-<p>Kendala lain: siswa terlalu fokus pada permainan. Saya menegaskan aturan dan menutup dengan refleksi, supaya kesenangan bermain berubah menjadi pemahaman.</p></details>
-</div></section>
-
-<section id="pengembangan"><div class="wrap">
+<section id="pengembangan" style="background:var(--sky)"><div class="wrap">
 <h2>Pengembangan diri</h2>
-<p class="lead">Sertifikat, pelatihan, dan capaian dari akun Erunex akan ditampilkan di sini.</p>
-<div class="box todo"><h3>Akun Erunex</h3><p>Tautan profil Erunex belum dimasukkan. Kirim tautannya, lalu bagian ini dilengkapi.</p></div>
+<p class="lead">Karya dan kegiatan saya di komunitas guru.</p>
+<div class="box todo"><h3>Akun Erunex (WooWEdu Community)</h3><p>Profil dan produk saya di Erunex. Ganti teks ini dengan tautan profil Anda.</p></div>
 </div></section>
 
-<section id="kontak" style="background:var(--sky)"><div class="wrap">
+<section id="kontak"><div class="wrap">
 <h2>Kontak dan tautan</h2>
 <div class="btns">
 <a class="btn" href="mailto:Dianahepi94@gmail.com">Kirim email</a>
